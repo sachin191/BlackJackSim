@@ -24,7 +24,6 @@ def get_next_card():
     while (is_dealt_card(num) == 1):
 	    num=random.randint(1,max_num)
 
-    # gbjs_cards_dealt_num = gbjs_card_dealt_num + 1 
     gbjs_cards_dealt_num += 1 
     return num
 
