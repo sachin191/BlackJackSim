@@ -48,6 +48,5 @@ def start_game():
 
 def main():
     start_game()
-     
 
 main()
